@@ -70,5 +70,5 @@ export const selectFilteredContacts = createSelector(
   }
 );
 
-export const selectError = (state) => state.error;
-export const selectLoading = (state) => state.loading;
+export const selectError = (state) => state.contacts.error;
+export const selectLoading = (state) => state.contacts.loading;
